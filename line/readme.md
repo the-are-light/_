@@ -1,6 +1,6 @@
 ## Line - alternative vector;
 
-TO work with my array, write this:
+To work with my array, write this:
 ```cpp
 #include "line.h"
 ```
