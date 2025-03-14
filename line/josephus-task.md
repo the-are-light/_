@@ -2,7 +2,7 @@
 
 int k = 2;
 
-| N | Answer | calculation time |
+| n | answer | calculation time |
 |-------------|-------------|-------------|
 | 1000    | 977    | 0.001    |
 | 5000    | 1809    | 0.009    |
