@@ -5,7 +5,7 @@
 #include "bmath.h"
 
 using namespace std;
-
+// functions for solving linear and quadratic equations
 Rational linear_eq(Rational& b, Rational& k);
 void square_eq(Rational a, Rational b, Rational c, Rational out[2]);
 
