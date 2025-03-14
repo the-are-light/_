@@ -1,5 +1,7 @@
 ## Josephus Task
 
+int k = 2;
+
 | N | Answer | calculation time |
 |-------------|-------------|-------------|
 | 1000    | 977    | 0.001    |
