@@ -17,7 +17,7 @@ Line line(10)
 **Functions:**
 - insert element in the array
 ```cpp
-  insert(int elem)
+insert(int elem)
   ``` 
 - insert element in the array with index
 ```cpp
