@@ -14,7 +14,19 @@ Line line(10)
 ```
 
 **Functions:**
-- insert(int elem) - insert element in the array
-- insert(int elem, int index) - insert element in the array with index
-- remove(int index) - delete element in the array
-- getSize() - get size of the array
+- insert element in the array
+```cpp
+  insert(int elem)
+  ``` 
+- insert element in the array with index
+```cpp
+insert(int elem, int index)
+```
+- delete element in the array
+```cpp
+remove(int index)
+```
+- get size of the array
+```cpp
+getSize()
+```
