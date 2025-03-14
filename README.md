@@ -1,4 +1,4 @@
 # _
-Repository for pet-projects and homeworks.
+Repository for homework.
 
 **The repository for me that saves some of the code.**
