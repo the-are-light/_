@@ -1,4 +1,4 @@
-## Line - alternative's vector;
+## Line - alternative vector;
 
 TO work with my array, write this:
 ```cpp
