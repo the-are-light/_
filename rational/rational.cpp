@@ -95,7 +95,6 @@ Rational Rational::operator /(const Rational& r) const
     return res /= r;
 }
 
-// пост и префиксные инкременты
 Rational& Rational::operator ++()
 {
     numer += denom;
@@ -107,8 +106,6 @@ Rational Rational::operator ++(int)
     numer += denom;
     return r;
 }
-
-// сравнение
 
 bool Rational::operator ==(const Rational& r) const
 {
@@ -128,8 +125,6 @@ bool Rational::operator <(const Rational& r) const {
     return r > *this;
 }
 
-// преобразование типов
-
 Rational::operator int() const
 {
     return numer / denom;
@@ -147,8 +142,6 @@ Rational Rational::sqrt() const
     );
     return res;
 }
-
-// ввод / вывод
 
 ostream& operator <<(ostream& out, const Rational& r)
 {
