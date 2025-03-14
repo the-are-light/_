@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// задача Иосифа Флавия
+// the task of Josephus
 int survivor(int n, int k);
 
 int main()
