@@ -13,7 +13,7 @@ Date::Date(int year, int month, int day)
 		throw DateException();
 }
 
-Date::Date(int jd_data)
+Date::Date(double jd_data)
 {
 	if (isCorrect(jd_data))
 		jd = jd_data;
@@ -152,7 +152,7 @@ bool Date::isCorrect(int year, int month, int day, int hour, int minute, int sec
 
 bool Date::isCorrect(double jd_data)
 {
-	if (jd_data <= 0)
+	if (jd_data >= 0)
 		return true;
 	else
 		return false;
@@ -180,7 +180,7 @@ void Date::displayTime()
 {
 	int h, m, s;
 	time(h, m, s);
-	cout << year() << "-" << month() << "-" << day() << "T" << h << ":" << m << ":" << s;
+	cout << year() << "-" << (month() < 10 ? "0" : "") << month() << "-" << (day() < 10 ? "0" : "") << day() << "T" << (h < 10 ? "0" : "") << h << ":" << m << ":" << s;
 }
 
 void Date::display()
