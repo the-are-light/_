@@ -1,8 +1,6 @@
 ﻿
 #include <iostream>
 #include "locale.h"
-#include "date.h"
-#include "rational.h"
 #include "line.h"
 #include <ctime>
 
@@ -15,14 +13,7 @@ int main()
 {
 	setlocale(LC_ALL, "russian");
 
-	//Rational a(1, 2), b(-1, 6);
-	//cout << "a=" << a << " b=" << b << " a+b=" << a + b << endl;
-	//cout << "a(" << a << ") *= b(" << b << ")" << endl;
-	//a *= b;
-	//cout << "a=" << a << " b=" << b << " a-b=" << a - b << endl;
-	//Rational c = 3;
-	//cout << "b=" << b << " c=" << c << " b/c=" << b / c << endl; // Вывод: 1/1
-
+	// for complete task
 	Line n_num(7);
 	int k = 2;
 	n_num.insert(1000);
@@ -44,7 +35,8 @@ int main()
 		cout << endl;
 	}
 
-	/*Line line(4);
+	// test my array
+	Line line(4);
 	for (int i = 0; i < 4; i++)
 		line.insert(i + 1);
 	cout << line << endl;
@@ -56,7 +48,7 @@ int main()
 	cout << line << endl;
 	for (int i = 6; i >= 0; i -= 3)
 		line.remove(i);
-	cout << line << endl;*/
+	cout << line << endl;
 
 	return 0;
 }
