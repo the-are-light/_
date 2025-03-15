@@ -19,7 +19,7 @@ class Date
 public:
 	Date();
 	Date(int year, int month, int day);
-	Date(int jd_data);
+	Date(double jd_data);
 	Date(int year, int month, int day, int hour, int minute, int second);
 
 	int weekday() const;
